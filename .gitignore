@@ -126,12 +126,12 @@ cython_debug/
 
 
 # Dependencies
-frontend/chatbot-ui//node_modules
+frontend/chatbot-ui/node_modules
 /.pnp
 .pnp.js
 
 # Testing
-frontend/chatbot-ui//coverage
+frontend/chatbot-ui/coverage
 
 # Production
 frontend/chatbot-ui//build
