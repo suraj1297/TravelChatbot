@@ -1,0 +1,66 @@
+[
+    {
+        "role": "user",
+        "content": "I want to book holiday packages"
+    },
+    {
+        "role": "assistant",
+        "content": "SELECT Name, Price, Type, NumberOfDays, NumberOfNights FROM HolidayPackages"
+    },
+    {
+        "role": "user",
+        "content": "Give me list of all attractions"
+    },
+    {
+        "role": "assistant",
+        "content": "SELECT Name, Type, Location, PriceRange FROM Attractions"
+    },
+    {
+        "role": "user",
+        "content": "Now I want to book flight"
+    },
+    {
+        "role": "assistant",
+        "content": "Sure, where would you like to go?"
+    },
+    {
+        "role": "user",
+        "content": "London to Paris"
+    },
+    {
+        "role": "assistant",
+        "content": "Could you please provide your travel dates?"
+    },
+    {
+        "role": "user",
+        "content": "December 22 2023"
+    },
+    {
+        "role": "assistant",
+        "content": "Where would you like to go?"
+    },
+    {
+        "role": "user",
+        "content": "Paris"
+    },
+    {
+        "role": "assistant",
+        "content": "What information would you need about Paris?"
+    },
+    {
+        "role": "user",
+        "content": "I want to book flight to paris from London"
+    },
+    {
+        "role": "assistant",
+        "content": "SELECT Name, DepartureCity, ArrivalCity, DepartureDate, DepartureTime, ArrivalDate, ArrivalTime, Price FROM Flights WHERE DepartureCity = 'London' AND ArrivalCity = 'Paris'"
+    },
+    {
+        "role": "user",
+        "content": "Give me details of floght"
+    },
+    {
+        "role": "assistant",
+        "content": "SELECT FlightName, DepartureDate, DepartureTime, ArrivalDate, ArrivalTime, Price, AvailableSeats FROM Flights"
+    }
+]
