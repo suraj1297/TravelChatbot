@@ -126,15 +126,15 @@ cython_debug/
 
 
 # Dependencies
-frontend/chatbot-ui/node_modules
+node_modules
 /.pnp
 .pnp.js
 
 # Testing
-frontend/chatbot-ui/coverage
+/coverage
 
 # Production
-frontend/chatbot-ui//build
+/build
 
 # Misc
 .DS_Store
@@ -149,6 +149,6 @@ frontend/chatbot-ui//build
 *.sw?
 
 # Logs
-frontend/chatbot-ui/npm-debug.log*
-frontend/chatbot-ui/yarn-debug.log*
-frontend/chatbot-ui/yarn-error.log*
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
